@@ -14,9 +14,9 @@ public class DisappearEffect extends Effect {
      * This effect changes the color of the tile that has just been played and
      * thus the owner of the tile)
      *
-     * @param line
-     * @param column
-     * @param game
+     * @param line ligne concernée dans le jeu
+     * @param column colunne concernée dans le jeu
+     * @param game jeu en cours
      */
     @Override
     public void playEffect(int line, int column, Game game) {
